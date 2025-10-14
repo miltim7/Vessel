@@ -46,12 +46,12 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const aboutHeader = document.querySelector('.about__header');
     const aboutLeftContent = document.querySelector('.about__left-content');
-    const aboutImageLarge = document.querySelector('.about__image-large');
+    const aboutGalleryBottom = document.querySelector('.about__gallery-bottom');
     const aboutGalleryItems = document.querySelectorAll('.about__gallery-item');
     
     if (aboutHeader) observer.observe(aboutHeader);
     if (aboutLeftContent) observer.observe(aboutLeftContent);
-    if (aboutImageLarge) observer.observe(aboutImageLarge);
+    if (aboutGalleryBottom) observer.observe(aboutGalleryBottom);
     aboutGalleryItems.forEach(item => observer.observe(item));
     
     const servicesHeader = document.querySelector('.services__header');

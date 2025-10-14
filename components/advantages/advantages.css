@@ -92,7 +92,7 @@
 
 .advantages__item {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 18px;
     padding: 20px 24px;
     background: rgba(201, 169, 110, 0.05);
@@ -126,13 +126,14 @@
 
 .advantages__item-content {
     flex: 1;
+    display: flex;
+    align-items: center;
 }
 
 .advantages__item-title {
     font-size: 18px;
     font-weight: 700;
     color: var(--color-text);
-    margin-bottom: 6px;
 }
 
 .advantages__item-text {
